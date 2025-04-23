@@ -57,7 +57,7 @@ This strategy blends trend-following signals with a volatility-aware overlay:
 
 ---
 
-## 📦 Setup Instructions
+##  Setup Instructions
 
 ### 1. Clone the Repo
 ```bash
