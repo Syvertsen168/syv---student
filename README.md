@@ -16,6 +16,17 @@ When volatility exceeds the threshold, the portfolio exits positions and rotates
 
 ---
 
+## Strategy Overview
+
+This strategy blends trend-following signals with a volatility-aware overlay:
+
+- **Technical Signal**: If the 50-day SMA is above the 200-day SMA, the ETF is considered in an uptrend and eligible for allocation.
+- **Weighting**: Allocations are distributed equally among qualifying ETFs.
+- **Volatility Filter**: If the average volatility exceeds the 80th percentile of the last year, all ETF weights go to zero (cash rotation).
+- **Rebalancing**: Scheduled daily via the `schedule` package.
+
+---
+
 ##  Assets Traded
 
 - **QQQ** – Nasdaq 100 ETF
@@ -45,3 +56,10 @@ When volatility exceeds the threshold, the portfolio exits positions and rotates
 | SPY(Buy/Hold)|  197.04%          |  0.69        |   -33.72%    |
 
 ---
+
+## 📦 Setup Instructions
+
+### 1. Clone the Repo
+```bash
+git clone https://github.com/Syvertsen168/volatility-etf-bot.git
+cd volatility-etf-bot
