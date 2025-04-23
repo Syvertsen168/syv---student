@@ -37,7 +37,7 @@ When volatility exceeds the threshold, the portfolio exits positions and rotates
 
 ##  Backtest Example
 
-![Strategy vs Benchmarks](./example_plot.png) <!-- Replace with your own plot if available -->
+![Image](https://github.com/user-attachments/assets/ae77e187-b557-4578-89ca-d182f75a3cf6)
 
 | 4/22/25      | Cumulative Return | Sharpe Ratio | Max Drawdown |
 |--------------|-------------------|--------------|--------------|
