@@ -63,3 +63,8 @@ This strategy blends trend-following signals with a volatility-aware overlay:
 ```bash
 git clone https://github.com/Syvertsen168/volatility-etf-bot.git
 cd volatility-etf-bot
+
+python -m venv venv
+source venv/bin/activate  # or venv\Scripts\activate on Windows
+
+pip install -r requirements.txt
