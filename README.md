@@ -57,18 +57,5 @@ This strategy blends trend-following signals with a volatility-aware overlay:
 
 ---
 
-##  Setup Instructions
-
-### 1. Clone the Repo
-```bash
-git clone https://github.com/Syvertsen168/volatility-etf-bot.git
-cd volatility-etf-bot
-
-python -m venv venv
-source venv/bin/activate  # or venv\Scripts\activate on Windows
-
-pip install -r requirements.txt
-
-pip freeze > requirements.txt
 
 # This strategy is for educational purposes only. Past performance is not indicative of future results. Always do your own research before investing.
